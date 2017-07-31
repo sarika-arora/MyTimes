@@ -1,8 +1,12 @@
+body {
+  margin: 0;
+}
+
 header {
   display: flex;
   align-items: center;
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -46,6 +50,7 @@ a {
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 116px;
+  z-index: 5;
 }
 
 .column.large {
